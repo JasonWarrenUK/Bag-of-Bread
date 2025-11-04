@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-  <title>Bag of Bread - Crumbs and Nuggets</title>
+  <title>Bag of Bread • Crumbs and Nuggets</title>
   <meta
     name="description"
     content="A collection of resources and information, baked to perfection"
@@ -16,52 +16,26 @@
 <div class="home">
   <div class="hero">
     <h1>{title}</h1>
-    <p class="subtitle">
-      Your go-to source for deliciously random crumbs of wisdom
-    </p>
+    <p class="subtitle">The discerning loaf's favoured source for delicious crumbs of wisdom</p>
   </div>
 
   <div class="content-grid">
-    <SectionCard
-      icon="🥖"
-      title="Fresh Content"
-      strapline="Hot out of the oven and ready to consume"
-    >
-      <ContentItem title="Latest Updates">
-        <p>Check out our newest additions to the collection. Fresh daily!</p>
-      </ContentItem>
+    <SectionCard icon="🥖" title="Fresh News" strapline="Hot out of the oven and ready to consume">
       <ContentItem title="Today's Special">
         <p>Handpicked resources just for you.</p>
         <p>Because everyone deserves a little extra butter on their bread.</p>
       </ContentItem>
     </SectionCard>
 
-    <SectionCard
-      icon="🥐"
-      title="Flaky Resources"
-      strapline="Layered with knowledge and buttery smooth"
-    >
+    <SectionCard icon="🥐" title="Flaky Resources" strapline="Layered with knowledge and buttery smooth">
       <ContentItem title="Learning Materials">
-        <p>
-          Delicate layers of information, carefully crafted for your
-          consumption.
-        </p>
-      </ContentItem>
-      <ContentItem title="Reference Guides">
-        <p>Quick references when you need them most.</p>
+        <p>Delicate layers of information, carefully crafted for your consumption.</p>
       </ContentItem>
     </SectionCard>
 
-    <SectionCard
-      icon="🥯"
-      title="Well-Rounded Info"
-      strapline="Everything you knead to know"
-    >
-      <ContentItem title="Complete Resources">
-        <p>A perfectly balanced collection of everything you might need.</p>
-      </ContentItem>
+    <SectionCard icon="🥯" title="Doughy Linklumps" strapline="Everything you knead to know">
       <ContentItem title="Tips & Tricks">
-        <p>Little nuggets of wisdom to make your life easier.</p>
+        <p>Little nuggets of interweb to make your life more fascinating.</p>
       </ContentItem>
     </SectionCard>
   </div>

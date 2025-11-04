@@ -10,10 +10,12 @@
       <div class="card-icon">{icon}</div>
       <h2>{title}</h2>
     </div>
+    
     <div class="section-strapline">
       <p>{strapline}</p>
     </div>
   </header>
+  
   <div class="section-content">
     <slot />
   </div>
