@@ -21,6 +21,7 @@
 
   <div class="content-grid">
     <SectionCard icon="🥖" title="Fresh News" strapline="Hot out of the oven and ready to consume">
+      <!-- This section is for news, updates, and time-relevant information -->
       <ContentItem title="Today's Special">
         <p>Handpicked resources just for you.</p>
         <p>Because everyone deserves a little extra butter on their bread.</p>
@@ -28,12 +29,14 @@
     </SectionCard>
 
     <SectionCard icon="🥐" title="Flaky Resources" strapline="Layered with knowledge and buttery smooth">
+      <!-- This section is for tutorials, guides, tools and explainers -->
       <ContentItem title="Learning Materials">
         <p>Delicate layers of information, carefully crafted for your consumption.</p>
       </ContentItem>
     </SectionCard>
 
     <SectionCard icon="🥯" title="Doughy Linklumps" strapline="Everything you knead to know">
+      <!-- This section is for content that doesn't fit in the other two SectionCard areas -->
       <ContentItem title="Tips & Tricks">
         <p>Little nuggets of interweb to make your life more fascinating.</p>
       </ContentItem>
