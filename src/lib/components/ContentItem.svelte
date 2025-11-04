@@ -2,9 +2,7 @@
   export let title: string;
   export let isOpen: boolean = false;
 
-  function toggle() {
-    isOpen = !isOpen;
-  }
+  function toggle() { isOpen = !isOpen }
 </script>
 
 <article class="content-item" class:open={isOpen}>
@@ -12,6 +10,7 @@
     <span class="toggle-icon">{isOpen ? "▼" : "▶"}</span>
     <h3>{title}</h3>
   </button>
+  
   {#if isOpen}
     <div class="content-body">
       <slot />

@@ -4,7 +4,7 @@
 
 <div class="app">
   <header>
-    <h1><a href="{base}/" class="logo">🍞 Bag of Bread</a></h1>
+    <h1><a href="{base}/" class="logo">🍞 Hovis' McGrobo;sBag of Bread</a></h1>
     <!-- <nav></nav> -->
   </header>
 
@@ -52,10 +52,10 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
-  nav {
+  /*nav {
     max-width: 1200px;
     margin: 0 auto;
-  }
+  }*/
 
   .logo {
     font-size: 2rem;
@@ -88,7 +88,7 @@
     font-style: italic;
   }
 
-  footer p {
+  footer pre {
     margin: 0;
   }
 </style>
