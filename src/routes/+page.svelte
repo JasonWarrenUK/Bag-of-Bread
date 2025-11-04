@@ -16,76 +16,181 @@
 <div class="home">
   <div class="hero">
     <h1>{title}</h1>
-    <p class="subtitle">The discerning loaf's favoured source for delicious crumbs of wisdom</p>
+    <p class="subtitle">
+      The discerning loaf's favoured source for delicious crumbs of wisdom
+    </p>
   </div>
 
   <div class="content-grid">
-    <!-- News, updates, time-relevant --><SectionCard
-      icon="🥖"
+    <!-- Cost-Analysis Cruchcakes --><SectionCard
+      title="Cost-Analysis Cruchcakes"
+      icon="🥨"
+      strapline="Custom-baked financial fripperies"
+    >
+      <!-- Claude for Excel --><ContentItem
+        title="Claude for Excel"
+      ></ContentItem>
+    </SectionCard>
+
+    <!-- Fresh News --><SectionCard
       title="Fresh News"
+      icon="🥖"
       strapline="Hot out of the oven and ready to consume"
     >
-      <ContentItem title="Claude for Sheets">
-        <p>Anthropic's Claude AI is now available as a Google Sheets extension, bringing powerful AI capabilities directly into your spreadsheets. Perfect for data analysis, content generation, and cost calculations without writing any code!</p>
-        <p><a href="https://www.anthropic.com/news/claude-for-sheets" target="_blank" rel="noopener">Read the announcement from Anthropic</a></p>
-        <img src="https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd25d09d7c21adc56faea8a07e847bd06ce2b27f6-3840x2160.png&w=3840&q=75" alt="Claude for Sheets interface showing AI integration in spreadsheets" />
-        <p>This tool is ideal for beginners because it requires no programming knowledge - just type natural language prompts directly into spreadsheet cells to analyze data, generate content, or perform cost analysis calculations.</p>
+      <!-- Advancing Claude for Financial Services --><ContentItem
+        title="Advancing Claude for Financial Services"
+      ></ContentItem>
+
+      <!-- Claude for Sheets --><ContentItem
+        title="Claude for Sheets"
+        linkUrl="https://www.anthropic.com/news/claude-for-sheets"
+        imgSrc="https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd25d09d7c21adc56faea8a07e847bd06ce2b27f6-3840x2160.png&w=3840&q=75"
+      >
+        <p>
+          <a
+            href="https://www.anthropic.com/news/claude-for-sheets"
+            target="_blank"
+            rel="noopener">Read the announcement from Anthropic</a
+          >
+        </p>
+        <img
+          src="https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd25d09d7c21adc56faea8a07e847bd06ce2b27f6-3840x2160.png&w=3840&q=75"
+          alt="Claude for Sheets interface showing AI integration in spreadsheets"
+        />
+        <p>
+          Anthropic's Claude AI is now available as a Google Sheets extension,
+          bringing powerful AI capabilities directly into your spreadsheets.
+          Perfect for data analysis, content generation, and cost calculations
+          without writing any code!
+        </p>
+        <p>
+          <a
+            href="https://www.anthropic.com/news/claude-for-sheets"
+            target="_blank"
+            rel="noopener">Read the announcement from Anthropic</a
+          >
+        </p>
+        <img
+          src="https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd25d09d7c21adc56faea8a07e847bd06ce2b27f6-3840x2160.png&w=3840&q=75"
+          alt="Claude for Sheets interface showing AI integration in spreadsheets"
+        />
+        <p>
+          This tool is ideal for beginners because it requires no programming
+          knowledge - just type natural language prompts directly into
+          spreadsheet cells to analyze data, generate content, or perform cost
+          analysis calculations.
+        </p>
       </ContentItem>
     </SectionCard>
-    
-    <!-- Tutorials, guides, tools, explainers --><SectionCard
-      icon="🥐"
+
+    <!-- Flaky Resources --><SectionCard
       title="Flaky Resources"
+      icon="🥐"
       strapline="Layered with knowledge and buttery smooth"
     >
-      <ContentItem title="Using Claude for Game Design">
-        <p>Claude can be an incredible creative partner for both digital and tabletop game design. This beginner-friendly guide shows you how to use Claude to brainstorm mechanics, balance gameplay, write dialogue, and even generate rule systems for board games.</p>
+      <!-- Using Claude for Game Design --><ContentItem
+        title="Using Claude for Game Design"
+        linkUrl="https://docs.anthropic.com/en/docs/about-claude/use-case-guides/game-development"
+        previewUrl="https://www.anthropic.com/research"
+      >
         <p>
-          <a href="https://docs.anthropic.com/en/docs/about-claude/use-case-guides/game-development" target="_blank" rel="noopener">Explore Claude's Game Development Guide</a>
+          Claude can be an incredible creative partner for both digital and
+          tabletop game design. This beginner-friendly guide shows you how to
+          use Claude to brainstorm mechanics, balance gameplay, write dialogue,
+          and even generate rule systems for board games.
         </p>
-        <p>Perfect for game designers who want to prototype faster without needing to write complex code. Simply describe what you want to create, and Claude can help you iterate on ideas, generate content, and even create simple game logic in Python that you can copy and paste.</p>
-        <div class="link-preview">
-          <strong>Related:</strong>
-          <a href="https://www.anthropic.com/research" target="_blank" rel="noopener">Learn more about Claude's capabilities</a>
-        </div>
+
+        <p>
+          Perfect for game designers who want to prototype faster without
+          needing to write complex code. Simply describe what you want to
+          create, and Claude can help you iterate on ideas, generate content,
+          and even create simple game logic in Python that you can copy and
+          paste.
+        </p>
       </ContentItem>
 
-      <ContentItem title="Claude API for Document Processing">
-        <p>Working with large text documents? The Claude API can summarize reports, extract key information, answer questions about your documents, and even help you organize content - all without needing programming experience if you use tools like Claude.ai's web interface.</p>
+      <!-- Claude API for Document Processing --><ContentItem
+        title="Claude API for Document Processing"
+        linkUrl="https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/long-context-tips"
+        imgSrc="https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc9c97044e5c0384b7fde7063c005ac9ef7fd55bf-3840x2160.png&w=3840&q=75"
+      >
         <p>
-          <a href="https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/long-context-tips" target="_blank" rel="noopener">Read the guide on working with long documents in Claude</a>
+          Working with large text documents? The Claude API can summarize
+          reports, extract key information, answer questions about your
+          documents, and even help you organize content - all without needing
+          programming experience if you use tools like Claude.ai's web
+          interface.
         </p>
-        <img src="https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc9c97044e5c0384b7fde7063c005ac9ef7fd55bf-3840x2160.png&w=3840&q=75" alt="Claude processing long documents" />
-        <p>Claude can handle documents up to hundreds of pages long, making it ideal for research, content analysis, and documentation review. You can paste your text directly into the chat interface and ask questions in plain English.</p>
+
+        <p>
+          Claude can handle documents up to hundreds of pages long, making it
+          ideal for research, content analysis, and documentation review. You
+          can paste your text directly into the chat interface and ask questions
+          in plain English.
+        </p>
       </ContentItem>
-      <ContentItem title="Prompt Library: Practical Examples for Beginners">
-        <p>Anthropic's official prompt library includes ready-to-use examples for game design, spreadsheet analysis, and document processing. Each prompt includes clear explanations and can be copied directly into Claude without any coding required.</p>
-        <p><a href="https://docs.anthropic.com/en/prompt-library/library" target="_blank" rel="noopener">Browse the complete prompt library</a></p>
+
+      <!-- Prompt Library: Practical Examples for Beginners --><ContentItem
+        title="Prompt Library: Practical Examples for Beginners"
+        linkUrl="https://docs.anthropic.com/en/prompt-library/library"
+      >
+        <p>
+          Anthropic's official prompt library includes ready-to-use examples for
+          game design, spreadsheet analysis, and document processing. Each
+          prompt includes clear explanations and can be copied directly into
+          Claude without any coding required.
+        </p>
         <div class="link-preview">
-          <strong>Featured examples include:</strong> Game narrative generation, CSV data analysis, cost-benefit analysis templates, and document summarization workflows
+          <strong>Featured examples include:</strong> Game narrative generation,
+          CSV data analysis, cost-benefit analysis templates, and document summarization
+          workflows
         </div>
       </ContentItem>
     </SectionCard>
 
-    <!-- All other content --><SectionCard
-      icon="🥯"
+    <!-- Doughy Linklumps --><SectionCard
       title="Doughy Linklumps"
+      icon="🥯"
       strapline="Everything you knead to know"
     >
-      <ContentItem title="Claude's Token Counter & Cost Calculator">
-        <p>Before you start using Claude's API, understand how much it will cost! This interactive tool helps you estimate costs by showing you how many tokens your text uses. No programming knowledge needed - just paste your text and see the results.</p>
-        <p><a href="https://docs.anthropic.com/en/docs/resources/token-counting" target="_blank" rel="noopener">Visit the token counting documentation</a></p>
-        <p>This is especially useful if you're planning to process spreadsheets, game dialogue, or large documents and want to keep your costs predictable. The documentation includes clear pricing tables and examples in plain English.</p>
-        <div class="link-preview">
-          <strong>Bonus:</strong>
-          <a href="https://console.anthropic.com" target="_blank" rel="noopener">Claude Console</a> - Try Claude directly in your browser with $5 in free credits to experiment
-        </div>
+      <!-- Claude's Token Counter & Cost Calculator --><ContentItem
+        title="Claude's Token Counter & Cost Calculator"
+        linkUrl="https://docs.anthropic.com/en/docs/resources/token-counting"
+        previewUrl="https://console.anthropic.com"
+      >
+        <p>
+          Before you start using Claude's API, understand how much it will cost!
+          This interactive tool helps you estimate costs by showing you how many
+          tokens your text uses. No programming knowledge needed - just paste
+          your text and see the results.
+        </p>
+
+        <p>
+          This is especially useful if you're planning to process spreadsheets,
+          game dialogue, or large documents and want to keep your costs
+          predictable. The documentation includes clear pricing tables and
+          examples in plain English.
+        </p>
       </ContentItem>
-      <ContentItem title="Community Cookbook: Real-World Applications">
-        <p>The Anthropic Cookbook repository features complete, beginner-friendly tutorials for using Claude with Excel files, game content generation, and cost analysis. Each tutorial includes step-by-step instructions and Python code that you can run with minimal setup.</p>
-        <p><a href="https://github.com/anthropics/anthropic-cookbook" target="_blank" rel="noopener">Explore the Claude Cookbook on GitHub</a></p>
-        <img src="https://opengraph.githubassets.com/1/anthropics/anthropic-cookbook" alt="Anthropic Cookbook repository preview" />
-        <p>While the examples use Python, many are simple enough for beginners to follow along with just a basic understanding of the syntax. Topics include working with spreadsheets, analyzing game balance, and processing documents at scale.</p>
+
+      <!-- Community Cookbook: Real-World Applications --><ContentItem
+        title="Community Cookbook: Real-World Applications"
+        linkUrl="https://github.com/anthropics/anthropic-cookbook"
+        imgSrc="https://opengraph.githubassets.com/1/anthropics/anthropic-cookbook"
+      >
+        <p>
+          The Anthropic Cookbook repository features complete, beginner-friendly
+          tutorials for using Claude with Excel files, game content generation,
+          and cost analysis. Each tutorial includes step-by-step instructions
+          and Python code that you can run with minimal setup.
+        </p>
+
+        <p>
+          While the examples use Python, many are simple enough for beginners to
+          follow along with just a basic understanding of the syntax. Topics
+          include working with spreadsheets, analyzing game balance, and
+          processing documents at scale.
+        </p>
       </ContentItem>
     </SectionCard>
   </div>
@@ -134,7 +239,7 @@
 
   .content-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(max(32%, 300px), 1fr));
     gap: 2rem;
     padding: 1rem 0;
   }
