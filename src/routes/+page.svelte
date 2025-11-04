@@ -29,8 +29,7 @@
     >
       <!-- Claude for Excel --><ContentItem
         title="Claude for Excel"
-      >
-      </ContentItem>
+      ></ContentItem>
     </SectionCard>
 
     <!-- Fresh News --><SectionCard
@@ -40,10 +39,9 @@
     >
       <!-- Advancing Claude for Financial Services --><ContentItem
         title="Advancing Claude for Financial Services"
-      >
-      </ContentItem>
+      ></ContentItem>
 
-      <!-- Claude for Sheets --><ContentItem 
+      <!-- Claude for Sheets --><ContentItem
         title="Claude for Sheets"
         linkUrl="https://www.anthropic.com/news/claude-for-sheets"
         imgSrc="https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd25d09d7c21adc56faea8a07e847bd06ce2b27f6-3840x2160.png&w=3840&q=75"
@@ -90,7 +88,7 @@
       icon="🥐"
       strapline="Layered with knowledge and buttery smooth"
     >
-      <!-- Using Claude for Game Design --><ContentItem 
+      <!-- Using Claude for Game Design --><ContentItem
         title="Using Claude for Game Design"
         linkUrl="https://docs.anthropic.com/en/docs/about-claude/use-case-guides/game-development"
         previewUrl="https://www.anthropic.com/research"
@@ -110,8 +108,8 @@
           paste.
         </p>
       </ContentItem>
-      
-      <!-- Claude API for Document Processing --><ContentItem 
+
+      <!-- Claude API for Document Processing --><ContentItem
         title="Claude API for Document Processing"
         linkUrl="https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/long-context-tips"
         imgSrc="https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc9c97044e5c0384b7fde7063c005ac9ef7fd55bf-3840x2160.png&w=3840&q=75"
@@ -131,8 +129,8 @@
           in plain English.
         </p>
       </ContentItem>
-      
-      <!-- Prompt Library: Practical Examples for Beginners --><ContentItem 
+
+      <!-- Prompt Library: Practical Examples for Beginners --><ContentItem
         title="Prompt Library: Practical Examples for Beginners"
         linkUrl="https://docs.anthropic.com/en/prompt-library/library"
       >
@@ -155,7 +153,7 @@
       icon="🥯"
       strapline="Everything you knead to know"
     >
-      <!-- Claude's Token Counter & Cost Calculator --><ContentItem 
+      <!-- Claude's Token Counter & Cost Calculator --><ContentItem
         title="Claude's Token Counter & Cost Calculator"
         linkUrl="https://docs.anthropic.com/en/docs/resources/token-counting"
         previewUrl="https://console.anthropic.com"
@@ -175,7 +173,7 @@
         </p>
       </ContentItem>
 
-      <!-- Community Cookbook: Real-World Applications --><ContentItem 
+      <!-- Community Cookbook: Real-World Applications --><ContentItem
         title="Community Cookbook: Real-World Applications"
         linkUrl="https://github.com/anthropics/anthropic-cookbook"
         imgSrc="https://opengraph.githubassets.com/1/anthropics/anthropic-cookbook"
@@ -241,7 +239,7 @@
 
   .content-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(max(32%, 300px), 1fr));
     gap: 2rem;
     padding: 1rem 0;
   }
