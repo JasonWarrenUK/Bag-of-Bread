@@ -20,7 +20,7 @@
   </div>
 
   <div class="content-grid">
-    <SectionCard <!-- News, updates, time-relevant -->
+    <!-- News, updates, time-relevant --><SectionCard
       icon="🥖"
       title="Fresh News"
       strapline="Hot out of the oven and ready to consume"
@@ -32,8 +32,8 @@
         <p>This tool is ideal for beginners because it requires no programming knowledge - just type natural language prompts directly into spreadsheet cells to analyze data, generate content, or perform cost analysis calculations.</p>
       </ContentItem>
     </SectionCard>
-
-    <SectionCard <!-- Tutorials, guides, tools, explainers -->
+    
+    <!-- Tutorials, guides, tools, explainers --><SectionCard
       icon="🥐"
       title="Flaky Resources"
       strapline="Layered with knowledge and buttery smooth"
@@ -67,7 +67,7 @@
       </ContentItem>
     </SectionCard>
 
-    <SectionCard <!-- All other content -->
+    <!-- All other content --><SectionCard
       icon="🥯"
       title="Doughy Linklumps"
       strapline="Everything you knead to know"
