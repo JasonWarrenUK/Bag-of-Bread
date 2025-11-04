@@ -4,7 +4,7 @@
 
 <div class="app">
   <header>
-    <h1><a href="{base}/" class="logo">🍞 Hovis' McGrobo;sBag of Bread</a></h1>
+    <h1><a href="{base}/" class="logo">🍞 Hovis' McGrobo's Bag of Bread</a></h1>
     <!-- <nav></nav> -->
   </header>
 
