@@ -1,8 +1,13 @@
 <script lang="ts">
   export let title: string;
   export let isOpen: boolean = false;
+  export let previewUrl: string | undefined = undefined;
+  export let linkUrl: string | undefined = undefined;
+  export let imgSrc: string | undefined = undefined;
 
-  function toggle() { isOpen = !isOpen }
+  function toggle() {
+    isOpen = !isOpen;
+  }
 </script>
 
 <article class="content-item" class:open={isOpen}>
@@ -10,10 +15,31 @@
     <span class="toggle-icon">{isOpen ? "▼" : "▶"}</span>
     <h3>{title}</h3>
   </button>
-  
+
   {#if isOpen}
     <div class="content-body">
+      {#if linkUrl}
+        <a href={linkUrl} target="_blank" rel="noopener noreferrer">
+          {linkUrl}
+        </a>
+      {/if}
+
       <slot />
+
+      {#if imgSrc}
+        <img src={imgSrc} alt="" />
+      {/if}
+
+      {#if previewUrl}
+        <a
+          href={previewUrl}
+          class="link-preview"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {previewUrl}
+        </a>
+      {/if}
     </div>
   {/if}
 </article>
