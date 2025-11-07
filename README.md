@@ -9,6 +9,8 @@
 
 A static website built with Svelte 5 and SvelteKit, featuring a playful bread and toast themed design. This site serves as a resource collection with a cartoonish and irreverent aesthetic.
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/JasonWarrenUK/Bag-of-Bread)
+
 ---
 
 ## 2. Tech Stack
